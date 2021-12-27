@@ -6,7 +6,8 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "parcel public/index.html",
-		"build": "parcel build public/index.html"
+		"build": "parcel build public/index.html",
+		"start": "sirv dist --no-clear"
 	},
 	"browserslist": [
 		"last 1 chrome versions"
@@ -14,6 +15,7 @@
 	"devDependencies": {
 		"parcel-bundler": "^1.12.5",
 		"parcel-plugin-svelte": "^4.0.9",
+		"sirv-cli": "^1.0.14",
 		"svelte": "^3.44.3"
 	}
 }
