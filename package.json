@@ -1,0 +1,19 @@
+{
+	"name": "svelte-parcel-template",
+	"version": "1.0.0",
+	"description": "A Svelte App Template With Parcel Module Bundler",
+	"author": "",
+	"license": "MIT",
+	"scripts": {
+		"dev": "parcel public/index.html",
+		"build": "parcel build public/index.html"
+	},
+	"browserslist": [
+		"last 1 chrome versions"
+	],
+	"devDependencies": {
+		"parcel-bundler": "^1.12.5",
+		"parcel-plugin-svelte": "^4.0.9",
+		"svelte": "^3.44.3"
+	}
+}
