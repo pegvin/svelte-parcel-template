@@ -10,7 +10,7 @@ To create a new project based on this template using [degit](https://github.com/
 
 ```bash
 npx degit DEVLOPRR/svelte-parcel-template svelte-parcel-app
-cd svelte-spa-app
+cd svelte-parcel-app
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
